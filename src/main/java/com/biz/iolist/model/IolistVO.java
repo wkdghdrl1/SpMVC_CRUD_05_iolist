@@ -14,16 +14,14 @@ import lombok.ToString;
 
 // @Data
 public class IolistVO {
-	
-	private long io_seq; //	NUMBER
-	private String io_date;	//VARCHAR2(10)
-	private String io_product;	//NVARCHAR2(50)
-	private String io_comp;	//NVARCHAR2(50)
-	private String io_comp_ceo;	//NVARCHAR2(50)
-	private String io_inout;	//NVARCHAR2(10)
-	private int io_qty;	//NUMBER
-	private int io_price;	//NUMBER
-	private int io_total;	//NUMBER
 
+	private long io_seq;	//number
+	private String io_date;	//varchar2(10 byte)
+	private String io_pcode;	//nvarchar2(5 char)
+	private String io_ccode;	//nvarchar2(5 char)
+	private String io_inout;	//varchar2(1 byte)
+	private int io_qty;	//number
+	private int io_price;	//number
+	private int io_total;	//number
 	
 }

@@ -10,6 +10,15 @@ body{
 	padding-top : 50px;
 }
 
+/* 어떤 특정 tag를 사용했는데
+원하는 대로 padding, margin이 적용이 잘 안 될 때
+tag의 padding, margin을 0으로 초기화시켜주고 그 아래쪽 style 를 지정하면 효과를 볼 수 있음
+*/
+
+ul{
+	padding:0;
+}
+
 ul.main-menu{
 	background-color: white;
 	box-shadow: 5px 10px 8px rgba(88, 88, 88, 0.8);
